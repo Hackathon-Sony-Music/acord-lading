@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 body {
     overflow: hidden;
+}
+
+.text-main-box {
+    align-content: center;
+    padding-left: 36px;
+    padding-top: 200px;
+    font-family: 'Andika', sans-serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    position: absolute;
+    color: #2E2F37;
+}
+.text-main-box p {
+    top: 70%;
+    position: absolute;
+}
+
+.text-main-box principal {
+    font-family: 'Caveat', cursive;
+    font-size: 64px;
+    color: #AA13EB;
 }
 
 .logo {
@@ -23,8 +46,138 @@ body {
     width: 70%;
     height: 70%;
 }
+.botao_fica {
+    padding: 40px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.botao_fica .botao {
+	background-color:#850fb8;
+	border-radius:28px;
+	border:1px solid #c15aed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.botao_fica .botao:hover {
+	background-color:#c15aed;
+}
+.botao_fica .botao:active {
+	position:relative;
+	top:1px;
+}
+
+.botao_fica2 {
+    padding: 40px;
+    position: absolute;
+    left: 90px;
+    bottom: 190px;
+}
+.botao_fica2 .botao {
+	background-color:#850fb8;
+	border-radius:28px;
+	border:1px solid #c15aed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.botao_fica2 .botao:hover {
+	background-color:#c15aed;
+}
+.botao_fica2 .botao:active {
+	position:relative;
+	top:1px;
+}
+
+
+@media only screen and (max-width: 1120px) {
+    .text-main-box {
+        align-content: center;
+        padding-left: 36px;
+        padding-top: 200px;
+        font-family: 'Andika', sans-serif;
+        font-size: 32px;
+        letter-spacing: 1px;
+        position: absolute;
+        color: #2E2F37;
+    }
+    .text-main-box p {
+        top: 80%;
+        position: absolute;
+    }
+    
+    .text-main-box principal {
+        font-family: 'Caveat', cursive;
+        font-size: 48px;
+        color: #AA13EB;
+    }
+
+    .botao_fica2 {
+        padding: 40px;
+        position: absolute;
+        left: 40px;
+        bottom: 240px;
+    }
+    .botao_fica2 .botao {
+        padding:11px 31px;
+    }
+    
+}
+
+@media only screen and (max-width: 960px) {
+    .text-main-box {
+        align-content: center;
+        padding-left: 76px;
+        padding-top: 420px;
+        font-family: 'Andika', sans-serif;
+        font-size: 32px;
+        letter-spacing: 1px;
+        position: absolute;
+        color: #2E2F37;
+    }
+    .text-main-box p {
+        top: 90%;
+        position: absolute;
+    }
+    
+    .text-main-box principal {
+        font-family: 'Caveat', cursive;
+        font-size: 48px;
+        color: #AA13EB;
+    }
+
+    .botao_fica2 {
+        padding: 40px;
+        position: absolute;
+        left: 90px;
+        bottom: 10px;
+    }
+    .botao_fica2 .botao {
+        padding:11px 31px;
+    }
+    
+}
+
+
 
 @media only screen and (max-width: 415px) {
+    .text-main-box {
+        padding-left: 20px;
+    }
+
     .logo{
         padding: 20px;
         font-size: 36px;
@@ -43,4 +196,35 @@ body {
         top: -40px;
         right: 20px;
     }
+
+
+    .botao_fica {
+        padding: 20px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .botao_fica .botao {
+        background-color:#850fb8;
+        border-radius:28px;
+        border:1px solid #c15aed;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:13px;
+        padding:13px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+    }
+
+    .botao_fica2 {
+        padding: 40px;
+        position: absolute;
+        left: 30px;
+        bottom: 10px;
+    }
+    .botao_fica2 .botao {
+        padding:11px 31px;
+    }
 }
+
