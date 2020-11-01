@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap');
+
+
+
+body {
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 42px;
+    color: #AA13EB;
+}
+
+.vector {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 70%;
+    height: 70%;
+}
