@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.blob1 {
+  position: absolute;
+  top: -300px;
+  right: 0px;
+  width: 50vmax;
+  z-index: -1;
+  animation: blob1 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.blob2 {
+  position: absolute;
+  top: -300px;
+  right: 0px;
+  width: 50vmax;
+  z-index: -1;
+  animation: blob2 20s ease-in-out infinite;
+  transform-origin: 50% 50%;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes blob2 {
+  0%   { transform: scale(1);  }
+  25%  { transform: scale(0.999, 1.01)  rotate(5deg); }
+  50%  { transform: scale(1.01)  rotate(-5deg); }
+  75%  { transform: scale(0.999)  rotate(5deg); }
+  100% { transform: scale(1) ; }
+}
+
+@keyframes blob1 {
+  0%   { transform: scale(0.8);  }
+  25%  { transform: scale(0.799, 0.91)  rotate(5deg); }
+  50%  { transform: scale(0.81)  rotate(-5deg); }
+  75%  { transform: scale(0.799)  rotate(5deg); }
+  100% { transform: scale(0.8) ; }
+}
