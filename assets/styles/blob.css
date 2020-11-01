@@ -14,7 +14,7 @@ body {
 .blob1 {
   position: absolute;
   top: -300px;
-  right: 0px;
+  right: -90px;
   width: 50vmax;
   z-index: -1;
   animation: blob1 20s ease-in-out infinite;
@@ -26,7 +26,7 @@ body {
 .blob2 {
   position: absolute;
   top: -300px;
-  right: 0px;
+  right: -90px;
   width: 50vmax;
   z-index: -1;
   animation: blob2 20s ease-in-out infinite;
