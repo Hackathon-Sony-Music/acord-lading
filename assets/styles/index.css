@@ -25,3 +25,24 @@ body {
     width: 70%;
     height: 70%;
 }
+
+@media only screen and (max-width: 415px) {
+    .logo{
+        padding: 20px;
+        font-size: 36px;
+    }
+    .blob1 {
+        top: -300px;
+        right: -90px;
+    }
+    .blob2 {
+        top: -300px;
+        right: -90px;
+    }
+    .vector {
+        width: 90%;
+        height: 90%;
+        top: -10px;
+        right: 20px;
+    }
+  }
