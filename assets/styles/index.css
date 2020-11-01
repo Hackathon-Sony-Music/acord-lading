@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,800&display=swap');
 
-
-
 body {
     overflow: hidden;
 }
@@ -42,7 +40,7 @@ body {
     .vector {
         width: 90%;
         height: 90%;
-        top: -10px;
+        top: -40px;
         right: 20px;
     }
-  }
+}
