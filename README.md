@@ -21,7 +21,7 @@ Hospedagem feita na Netfly, link para acesso.
  
  - https://acord.digital/
  
-   Podendo fazer liguin com usuario admin:
+   Podendo fazer login com usuario admin:
     - email: editora@gmail.com
     - senha: 123123
     
