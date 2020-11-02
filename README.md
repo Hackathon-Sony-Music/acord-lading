@@ -25,4 +25,4 @@ Hospedagem feita na Netfly, link para acesso.
     - email: editora@gmail.com
     - senha: 123123
     
-    Tento a funcionalidade de cadastro desponivel tambem caso queria fazer. Diferenciando o fluxo entre Produtora e Artista.
+   Tendo a funcionalidade de cadastro disponivel tambem caso queira fazer. Diferenciando o fluxo entre Produtora e Artista.
