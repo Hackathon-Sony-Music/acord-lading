@@ -17,7 +17,7 @@ Acord é uma plataforma de facilitação, promovendo a convergência entre um po
 
 ## Hospedagem 
 
-Hospedagem feita na https://vercel.com/, link para acesso.
+Hospedagem feita na Netfly, link para acesso.
  
  - https://acord.digital/
  
