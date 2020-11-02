@@ -10,7 +10,7 @@ Acord é uma plataforma de facilitação, promovendo a convergência entre um po
 * Victor Junior 
 * Victor Araujo 
 
-## Ferramento utilizada no desenvolvimento
+## Ferramentas utilizada no desenvolvimento
 
 * HTML
 * CSS
